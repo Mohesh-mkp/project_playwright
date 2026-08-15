@@ -1,0 +1,30 @@
+{
+  "name": "project_playwright",
+  "version": "1.0.0",
+  "description": "Implementaion of Playwright framework with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "test:tag": "npx bddgen && npx playwright test --grep"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohesh-mkp/project_playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mohesh-mkp/project_playwright/issues"
+  },
+  "homepage": "https://github.com/Mohesh-mkp/project_playwright#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "playwright-bdd": "^9.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
