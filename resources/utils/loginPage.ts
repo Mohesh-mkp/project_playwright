@@ -46,6 +46,7 @@ export class LoginPage {
 
     async clickSignIn() {
         await this.page.locator(LoginLocators.loginBtn).click();
+        await this.page.waitForLoadState('domcontentloaded');
         await this.verifySearchboxVisibility();
     }
 
